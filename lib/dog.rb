@@ -14,10 +14,11 @@ class Dog
   end
   
   def self.all
-   @@all.each do |n|
-     puts n
+     @all = []
+     @@all.each do |n|
+     @all << n
   end
-  
+  puts @all
 end
   
 end
