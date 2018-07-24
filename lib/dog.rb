@@ -18,7 +18,7 @@ class Dog
   end
   
   def new(name)
-    @@all << @name
+    @@all
   end
   
 end
