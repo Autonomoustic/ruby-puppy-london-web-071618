@@ -17,5 +17,6 @@ class Dog
    @@all.collect do |n|
      n
   end
+end
   
 end
