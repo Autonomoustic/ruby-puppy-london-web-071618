@@ -17,8 +17,8 @@ class Dog
    puts @@all
   end
   
-  def new(name)
-    @@all
+  def new
+    @@all << @name
   end
   
 end
