@@ -14,7 +14,8 @@ class Dog
   end
   
   def self.all
-   @@all.collect { |n| puts n}
+   @@all.collect do |n|
+     n
   end
   
 end
